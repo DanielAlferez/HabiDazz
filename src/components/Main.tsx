@@ -12,7 +12,7 @@ function Main() {
     const today = new Date();
 
   return (
-    <SafeAreaView className='flex-1 pt-10 bg-habidazz-light-primary'>
+    <SafeAreaView className='flex-1 pt-5 bg-habidazz-light-primary'>
         <View className='flex-row m-5'>
             <Text className='font-bold text-2xl text-black'> {`${date.getDate() === today.getDate() ? 'Today' : date.getDate() === today.getDate() + 1 ? 'Tomorrow' : date.getDate() === today.getDate() - 1 ? 'Yesterday' : format(date, 'EEEE')}`},</Text>
             <Text className='font-bold text-2xl text-habidazz-basic-grayD'> {`${format(date, 'MMMM')} ${date.getDate()}`}</Text>

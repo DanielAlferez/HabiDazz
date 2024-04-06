@@ -4,10 +4,10 @@
     "slug": "HabiDazz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/house.png",
+    "icon": "./assets/images/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/house.png",
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,12 @@
       "package": "com.damtyc.habidazz",
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/house.png",
+        "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/logo.png"
     },
     "extra": {
       "eas": {
