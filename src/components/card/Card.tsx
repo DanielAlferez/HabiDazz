@@ -2,7 +2,14 @@ import React from 'react'
 import { Button, Text, Touchable, TouchableOpacity, View } from 'react-native'
 import Images from '../common/Images'
 
-function Card( {title, phrase, time, type} ) {
+interface ICard {
+  title?: string;
+  phrase?: string;
+  time?: string;
+  type: string;
+}
+
+function Card( {title, phrase, time, type} : ICard ) {
   return (
     <View className='flex flex-row justify-around items-center'>
       <Images tipo={type}/>

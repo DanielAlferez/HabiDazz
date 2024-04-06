@@ -25,18 +25,28 @@ function Main() {
         <ScrollView className='px-5'>
             <Container>
                 <ContainerTitle icon='wb-sunny' title='Morning Cicle'/>
-                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'gym'}/>
-                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'gym'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'book'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'camera'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'camp'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'car'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'coffe'}/>
             </Container>
             <Container>
                 <ContainerTitle icon='nightlight' title='Evening Cicle'/>
-                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'game'}/>
-                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'game'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'computer'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'games'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'gym'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'house'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'meditation'}/>
             </Container>
             <Container>
                 <ContainerTitle icon='nights-stay' title='Noon Cicle'/>
                 <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'music'}/>
-                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'music'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'pets'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'pomodoro'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'travel'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'wallet'}/>
+                <Card title={'GYM Sessions'} phrase={'Be strong, be better.'} time={'Active'} type={'running'}/>
             </Container>
         </ScrollView>
         <Menu />
